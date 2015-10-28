@@ -1,5 +1,16 @@
 import java.util.Scanner;
 /**
+ * You are riding a bicycle home from school and want to exert as little energy as possible.
+ * Given is an m  n grid of integers representing altitudes at those spatial locations. You
+ * start at the top-left corner of the grid (school), and want to reach the bottom-right corner
+ * (home). In general, you may move from one grid location to a horizontally or vertically
+ * adjacent grid location. However, you must always go downhill. Furthermore, it costs you
+ * 1 unit of energy to ride from one grid cell to the next. However, it costs you an extra 3
+ * units of energy every time you turn left or right. (You may assume that you start at the
+ * top-left corner facing either to the right or downward, whichever ends up being better, and
+ * it doesn't matter whether you are facing to the right or downward when you reach home.)
+ * Give an O((mn)2) algorithm that determines the minimum units of energy you must
+ * expend to get home from school.
  *
  * @author Nitish Krishna Ganesan
  */

@@ -1,6 +1,11 @@
 import java.util.Scanner;
 /**
- *
+ * Given is a weighted, directed graph G = (V;E) with m edges and n vertices in which some
+ * weights are negative (though there are no negative-weight cycles). We will call an edge
+ * useless if it is not used in the shortest path from any node to any other node. You may
+ * assume that there are never two equally short paths between any pair of nodes. Create an
+ * O(n3) algorithm to count the number of useless edges in the graph.
+ * 
  * @author Nitish Krishna Ganesan
  */
 public class CountUseless {

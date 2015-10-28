@@ -1,5 +1,7 @@
 import java.util.Scanner;
 /**
+ * Given is an undirected graph and two of its vertices s and t. Give an O(m+ n) algorithm
+ * that computes the number of shortest paths from s to t.
  *
  * @author Nitish Krishna Ganesan
  */

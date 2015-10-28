@@ -1,7 +1,11 @@
 
 import java.util.Scanner;
 /**
- *
+ * Give an algorithm that finds the number of connected components of a given graph G.
+ * (Two vertices are in the same connected component of G if there exists a path between
+ * these vertices.) Your algorithm should run in linear time, i.e. O(n + m), where n is the
+ * number of vertices and m is the number of edges.
+ * 
  * @author Nitish Krishna Ganesan
  */
 class List{
